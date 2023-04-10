@@ -33,7 +33,7 @@ const QrCode = () => {
   );
   return (
     <div className="qrcode__container">
-      <h1 className="qrcode__container-heading">Generate Free QR Code for Any Descripion or URL</h1>
+      <h1 className="qrcode__container-heading">Generate Free QR Code for Any Description or URL</h1>
       <div ref={qrRef}>{qrcode}</div>
       <div className="input__group">
         <form onSubmit={downloadQRCode}>
